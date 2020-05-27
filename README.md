@@ -12,7 +12,7 @@
 
 ---------------------------------------------------
 
-> [https://ddamjengi1020.github.io/Kakao_Clone_V2.0_Training/](https://ddamjengi1020.github.io/Kakao_Clone_V2.0_Training/ "kakaoClone link")
+> [https://ddamjengi1020.github.io/kakaotalk-UI/](https://ddamjengi1020.github.io/kakaotalk-UI/ "kakaoClone link")
 
 __Kakao Talk - only UI clone coding__
 
