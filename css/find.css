@@ -1,0 +1,40 @@
+.find .find__header-list,
+.more .more__select-list,
+.more .more__suggestions-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 0px;
+}
+
+.find .find__header-btn,
+.more .more__select-btn,
+.more .more__suggestions-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.header-btn__icon,
+.select-btn__icon {
+  font-size: 28px;
+}
+
+.find__header-btn__title,
+.select-btn__title {
+  margin: 15px 0px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.find__recommended .friend_add-btn {
+  width: 42px;
+  height: 33px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}

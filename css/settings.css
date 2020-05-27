@@ -1,0 +1,51 @@
+.settings .settings__kakao {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  border-top: 1px solid #ecebeb;
+  border-bottom: 1px solid #ecebeb;
+}
+
+.settings__kakao-list .setting,
+ .settings__account-list .account,
+ .supports__support-list .support {
+  padding: 6px 0px;
+  font-size: 18px;
+}
+
+.settings .settings__kakao-version {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__kakao-version .setting__version {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.settings .setting__icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings .settings__account-list {
+    padding: 5px 0px;
+  margin: 10px 0px;
+}
+
+.settings__list-colomn, 
+.settings__account-list-colomn, 
+.supports__support-column,
+.settings__kakao-version {
+    cursor: pointer;
+}
+
+.supports {
+  border-top: 1px solid #ecebeb;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}

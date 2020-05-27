@@ -1,0 +1,166 @@
+.chatings .chatings__timestamp {
+  display: flex;
+  justify-content: center;
+  animation: timestamp 0.9s ease-out forwards; 
+}
+
+.chatings .chatings__timestamp-text {
+  width: fit-content;
+  font-size: 13px;
+  background-color: #d9d9d9;
+  padding: 8px 10px;
+  border-radius: 10% / 50%;
+  color: white;
+}
+
+.chatings .chatings__message-left {
+  display: flex;
+  margin-top: 25px;
+  animation: incomingAnim 0.6s ease-out forwards;
+}
+
+.chatings .chatings__message_right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  animation: sentAnimation 0.6s ease-out forwards;
+}
+
+.chating__column .chating__message {
+  width: fit-content;
+  background-color: white;
+  border: 0.5px solid #e6e3e3;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  padding: 8px;
+  margin-top: 7px;
+}
+
+.chating__column .chating__message-right {
+  width: fit-content;
+  background-color: #feea00;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  padding: 10px;
+}
+
+.chatings .chating__message {
+  position: relative;
+}
+
+.chatings .chating__realtime {
+  position: absolute;
+  right: -33px;
+  bottom: 0px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.chatings .chating__message-right {
+  position: relative;
+}
+
+.chatings .chating__realtime-right {
+  position: absolute;
+  left: -33px;
+  bottom: 0px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.chat__write {
+  position: fixed;
+  bottom: 40px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfcfc;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+
+.chat__write:hover {
+  bottom: 45px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat__write i {
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.chat__write .chat__write-column:nth-child(2) {
+  width: 70%;
+}
+
+.chat__write input {
+  padding: 6px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+/*chating background img*/
+
+.chating-body {
+  padding: 0;
+}
+
+.chating-body {
+  background-image: url(../images/dust_scratches.png);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chatings .chatings__messages {
+  padding: 125px 20px;
+}
+
+.chating-body__wrap {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+  padding: 6px 20px;
+  z-index:9;
+  box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+/*This section is animation*/
+
+@keyframes incomingAnim {
+  from{
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sentAnimation {
+  from{
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes timestamp {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
